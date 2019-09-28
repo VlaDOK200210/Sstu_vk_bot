@@ -18,10 +18,11 @@ def get_button(label, color, payload=""):
 
 
 
-
+token_file = open('../token.txt')
+token_open = token_file.read
 now_week = int(datetime.datetime.now().strftime("%V")) - 35
 group_id = "186837700"
-token = "23276f582c0e2d329577ede209ea43b6e6d6ac2ed39336c1f6ca8d6b53b466d1fa3f6a9ede8ca8b6b40ae"  # токен сюды
+token = str(token_open())  # токен сюды
 vk = vk_api.VkApi(token=token)
 vk._auth_token()
 ivcht11 = load_workbook('./rasp/ivcht11.xlsx')  # ПУТЬ К ТАБЛИЦЕ ЭКСЕЛЬ С РАСПИСАНИЕМ
@@ -77,7 +78,6 @@ while True:
     try:
         week_day = datetime.datetime.today().weekday()
         print("Оно включено 1")
-
         messages = vk.method("messages.getConversations", {"offset": 0, "count": 20, "filter": "unanswered"})
         if messages["count"] >= 1:
             print("Есть смс")
