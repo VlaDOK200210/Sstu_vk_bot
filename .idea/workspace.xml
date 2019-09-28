@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="484a2e40-1e46-476a-afe7-4ed5009c2e3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rasp/ivcht11.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/VK.py" beforeDir="false" afterPath="$PROJECT_DIR$/VK.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +31,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.VK (1)">
+    <configuration name="VK (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Sstu_vk_bot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sstu_vk_bot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sstu_vk_bot/VK.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="VK" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sstu_vk_bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -54,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.VK (1)" />
         <item itemvalue="Python.VK" />
       </list>
     </recent_temporary>
@@ -69,6 +92,14 @@
       <option name="presentableId" value="Default" />
       <updated>1569601896937</updated>
     </task>
+    <task id="LOCAL-00001" summary="text">
+      <created>1569670347173</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569670347173</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,5 +114,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="text" />
+    <option name="LAST_COMMIT_MESSAGE" value="text" />
   </component>
 </project>
